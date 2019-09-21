@@ -1,0 +1,98 @@
+body{
+	padding:0;
+	margin:0;
+
+	background:linear-gradient(to right, blue, lightblue);
+}
+.calc-container{
+	margin:7% 0 0 20%;
+    width:760px;
+    background-color: white;
+    padding:4px;
+    box-shadow: 0.5px 0.5px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.screen{
+	width:99.2%;
+	height:30px;
+	text-align: right;
+	border:none;
+	font-size:30px;
+	color:gray;
+}
+
+.s2{
+	border:none;
+
+	font-size:18px;
+
+}
+.s2:disabled , .s1:disabled{
+	background-color: white;
+}
+
+.botones{
+	padding:25px 45px 25px 45px;
+	width:100%;
+	background-color: white;
+	color:gray;
+	border:1px solid rgba(0, 0, 0, 0.12);
+	cursor:pointer;
+
+
+}
+
+.botones:hover{
+	background-color: rgba(0,0,0,0.04);
+	transition: all 0.5s linear;
+}
+
+.history{
+	background-color: gray;
+	height:390px;
+	
+}
+
+.btn-clean-history{
+	background-color: skyblue;
+	border:none;
+	height:32px;
+	color:white;
+	width:100%;
+	cursor:pointer;
+}
+
+.history-content{
+	background-color: #E6E6E6;
+	height:352px;
+	margin: 0  0 0 0;
+	padding:5px;
+	width:205px;
+	color:gray;
+	overflow-y: scroll;
+}
+
+.CE,.C,.delete,.siete , .ocho , .nueve , .cuatro, .cinco,
+ .seis, .uno, .dos, .tres{
+    
+	border-bottom: none;
+	border-right: none;
+}
+
+.por, .entre,.menos, .mas{
+
+	border-bottom: none;
+}
+
+.punto, .cero {
+	border-right: none;
+}
+
+.igual{
+	width:186.5%;
+}
+
+
